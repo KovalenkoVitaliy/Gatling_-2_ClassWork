@@ -1,0 +1,33 @@
+Virtual User Script started at: 23.03.2020 21:01:03
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\user\Desktop\Task2(2303)\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(4): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(14): web_url("computers") started  	[MsgId: MMSG-26355]
+Action.c(14): Found resource "http://computer-database.gatling.io/assets/stylesheets/bootstrap.min.css" in HTML "http://computer-database.gatling.io/computers"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "http://computer-database.gatling.io/assets/stylesheets/main.css" in HTML "http://computer-database.gatling.io/computers"  	[MsgId: MMSG-26659]
+Action.c(14): web_url("computers") was successful, 53440 body bytes, 809 header bytes  	[MsgId: MMSG-26386]
+Action.c(25): web_url("AAAAAAA1") started  	[MsgId: MMSG-26355]
+Action.c(25): Resource "http://computer-database.gatling.io/assets/stylesheets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(25): Resource "http://computer-database.gatling.io/assets/stylesheets/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(25): web_url("AAAAAAA1") was successful, 5493 body bytes, 187 header bytes  	[MsgId: MMSG-26386]
+Action.c(36): web_submit_data("2832") started  	[MsgId: MMSG-26355]
+Action.c(36): Redirecting "http://computer-database.gatling.io/computers/2936" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(36): To location "http://computer-database.gatling.io/computers"  	[MsgId: MMSG-26693]
+Action.c(36): Resource "http://computer-database.gatling.io/assets/stylesheets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "http://computer-database.gatling.io/assets/stylesheets/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): web_submit_data("2832") was successful, 7371 body bytes, 530 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

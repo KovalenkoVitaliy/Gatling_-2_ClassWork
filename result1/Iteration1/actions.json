@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: computers",
+                "infFile": "t1.inf",
+                "time": 1584986464575
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: AAAAAAA1",
+                "infFile": "t2.inf",
+                "time": 1584986464663
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: 2832",
+                "infFile": "t3.inf",
+                "time": 1584986464852
+            }
+        ],
+        "transactions": []
+    }
+]
